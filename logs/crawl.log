@@ -32,3 +32,60 @@
 2025-04-26 12:04:44,092 - WARNING - No raw posts (<article> elements) were found in this page.
 2025-04-26 12:04:44,093 - INFO - Page parser did not find next page URL
 2025-04-26 12:04:44,094 - INFO - \u0110ã l\u01b0u 0 bài vi\u1ebft
+2025-04-27 13:47:15,041 - INFO - \u0110ang crawl t\u1eeb nhóm công khai: AKKO VN Community
+2025-04-27 13:47:16,941 - WARNING - No raw posts (<article> elements) were found in this page.
+2025-04-27 13:47:16,942 - INFO - Page parser did not find next page URL
+2025-04-27 13:47:16,943 - INFO - \u0110ã l\u01b0u 0 bài vi\u1ebft
+2025-04-27 17:00:04,139 - INFO - \u0110ang crawl t\u1eeb nhóm công khai: https://www.facebook.com/share/g/1Fudgzaj1n/
+2025-04-27 17:00:06,049 - ERROR - Exception while requesting URL: https://m.facebook.com/groups/https:/www.facebook.com/share/g/1Fudgzaj1n/
+Exception: HTTPError('404 Client Error: Not Found for url: https://www.facebook.com/groups/https:/www.facebook.com/share/g/1Fudgzaj1n/?_rdr')
+Traceback (most recent call last):
+  File "C:\Users\nguye\miniconda3\Lib\site-packages\facebook_scraper\facebook_scraper.py", line 880, in get
+    response.raise_for_status()
+  File "C:\Users\nguye\miniconda3\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.facebook.com/groups/https:/www.facebook.com/share/g/1Fudgzaj1n/?_rdr
+2025-04-27 17:00:06,056 - ERROR - L\u1ed7i: 404 Client Error: Not Found for url: https://www.facebook.com/groups/https:/www.facebook.com/share/g/1Fudgzaj1n/?_rdr
+2025-04-27 17:00:21,415 - INFO - \u0110ang crawl t\u1eeb nhóm công khai: https://www.facebook.com/share/g/1Fudgzaj1n/
+2025-04-27 17:00:23,219 - ERROR - Exception while requesting URL: https://m.facebook.com/groups/https:/www.facebook.com/share/g/1Fudgzaj1n/
+Exception: HTTPError('404 Client Error: Not Found for url: https://www.facebook.com/groups/https:/www.facebook.com/share/g/1Fudgzaj1n/?_rdr')
+Traceback (most recent call last):
+  File "C:\Users\nguye\miniconda3\Lib\site-packages\facebook_scraper\facebook_scraper.py", line 880, in get
+    response.raise_for_status()
+  File "C:\Users\nguye\miniconda3\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.facebook.com/groups/https:/www.facebook.com/share/g/1Fudgzaj1n/?_rdr
+2025-04-27 17:00:23,223 - ERROR - L\u1ed7i: 404 Client Error: Not Found for url: https://www.facebook.com/groups/https:/www.facebook.com/share/g/1Fudgzaj1n/?_rdr
+2025-04-27 17:00:57,503 - INFO - \u0110ang crawl t\u1eeb nhóm công khai: Hi\u1ec3u Bi\u1ebft H\u01a1n M\u1ed7i Ngày
+2025-04-27 17:00:59,422 - WARNING - No raw posts (<article> elements) were found in this page.
+2025-04-27 17:00:59,422 - INFO - Page parser did not find next page URL
+2025-04-27 17:00:59,423 - INFO - \u0110ã l\u01b0u 0 bài vi\u1ebft
+2025-04-27 17:03:45,890 - INFO - \u0110ang crawl t\u1eeb nhóm công khai: 178976120262143
+2025-04-27 17:03:47,700 - WARNING - No raw posts (<article> elements) were found in this page.
+2025-04-27 17:03:47,700 - INFO - Page parser did not find next page URL
+2025-04-27 17:03:47,701 - INFO - \u0110ã l\u01b0u 0 bài vi\u1ebft
+2025-04-27 17:04:02,504 - INFO - \u0110ang crawl t\u1eeb nhóm công khai: media
+2025-04-27 17:04:04,081 - WARNING - No raw posts (<article> elements) were found in this page.
+2025-04-27 17:04:04,082 - INFO - Page parser did not find next page URL
+2025-04-27 17:04:04,082 - INFO - \u0110ã l\u01b0u 0 bài vi\u1ebft
+2025-04-27 17:10:17,491 - WARNING - Không tìm th\u1ea5y file cookies.txt, s\u1ebd crawl \u1edf ch\u1ebf \u0111\u1ed9 công khai
+2025-04-27 17:10:17,492 - INFO - B\u1eaft \u0111\u1ea7u crawl page: zingnews
+2025-04-27 17:10:17,492 - ERROR - L\u1ed7i khi crawl: You need to specify either account, group, or post_urls
+2025-04-27 17:10:30,161 - WARNING - Không tìm th\u1ea5y file cookies.txt, s\u1ebd crawl \u1edf ch\u1ebf \u0111\u1ed9 công khai
+2025-04-27 17:10:30,162 - INFO - B\u1eaft \u0111\u1ea7u crawl page: zingnews
+2025-04-27 17:10:30,162 - ERROR - L\u1ed7i khi crawl: You need to specify either account, group, or post_urls
+2025-04-27 17:11:41,262 - WARNING - Không tìm th\u1ea5y file cookies.txt, s\u1ebd crawl \u1edf ch\u1ebf \u0111\u1ed9 công khai
+2025-04-27 17:11:41,263 - INFO - B\u1eaft \u0111\u1ea7u crawl page: zingnews
+2025-04-27 17:11:43,179 - WARNING - No raw posts (<article> elements) were found in this page.
+2025-04-27 17:11:43,180 - INFO - Page parser did not find next page URL
+2025-04-27 17:11:43,182 - INFO - \u0110ã l\u01b0u 0 bài vi\u1ebft vào data/zingnews_posts.json
+2025-04-27 17:15:27,788 - WARNING - Không tìm th\u1ea5y file cookies.txt, s\u1ebd crawl \u1edf ch\u1ebf \u0111\u1ed9 công khai
+2025-04-27 17:18:16,479 - WARNING - Không tìm th\u1ea5y file cookies.txt, s\u1ebd crawl \u1edf ch\u1ebf \u0111\u1ed9 công khai
+2025-04-27 17:24:22,360 - WARNING - Không tìm th\u1ea5y file cookies.txt, s\u1ebd crawl \u1edf ch\u1ebf \u0111\u1ed9 công khai
+2025-04-27 17:26:42,771 - WARNING - Không tìm th\u1ea5y file cookies.txt, s\u1ebd crawl \u1edf ch\u1ebf \u0111\u1ed9 công khai
+2025-04-27 17:26:42,772 - INFO - T\u1ea1o file cookies.txt m\u1eb7c \u0111\u1ecbnh
+2025-04-27 17:35:30,154 - ERROR - L\u1ed7i: [Errno 22] Invalid argument: 'c_user=100021656468564;\nxs=23%3ATeATFUeMw96e2Q%3A2%3A1745749903%3A-1%3A6345;\nfr=0nxWMXDDVm3YRkX08.AWdsCiCR7BqWwIN21DCT4qGywx0NWhmofwnVmvi_2rzehXSuvtM.BoDf8m..AAA.0.0.BoDgeR.AWeqFr-32hlSFpqwONSdg2-cl4A;'
+2025-04-27 17:38:16,218 - ERROR - L\u1ed7i: [Errno 22] Invalid argument: 'c_user=100021656468564;\nxs=23%3ATeATFUeMw96e2Q%3A2%3A1745749903%3A-1%3A6345;\nfr=0nxWMXDDVm3YRkX08.AWdsCiCR7BqWwIN21DCT4qGywx0NWhmofwnVmvi_2rzehXSuvtM.BoDf8m..AAA.0.0.BoDgeR.AWeqFr-32hlSFpqwONSdg2-cl4A;'
+2025-04-27 17:38:56,897 - ERROR - Không tìm th\u1ea5y file cookies.txt. Vui lòng cung c\u1ea5p cookie h\u1ee3p l\u1ec7.
+2025-04-27 17:38:56,897 - ERROR - L\u1ed7i: Không tìm th\u1ea5y file cookies.txt
+2025-04-27 17:45:14,630 - ERROR - Không tìm th\u1ea5y file cookies.txt.
