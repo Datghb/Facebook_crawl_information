@@ -1,1 +1,4 @@
 facebook-scraper
+
+selenium~=4.24.0
+requests~=2.31.0

@@ -25,28 +25,27 @@ txtPass.send_keys(Keys.ENTER)
 sleep(5)
 
 # Mở nhóm Facebook
-browser.get("https://www.facebook.com/groups/233986561026635")
+browser.get("https://www.facebook.com/groups/327940020092140")
 sleep(5)
 
 # Chờ các post tải xong
+# Chờ bài đăng xuất hiện
 WebDriverWait(browser, 10).until(
-    EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[role="article"]'))
+    EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.xu06os2 x1ok221b"))
 )
 
-posts = browser.find_elements(By.CSS_SELECTOR, 'div[role="article"]')
+# Lấy tất cả các bài post
+posts = browser.find_elements(By.CSS_SELECTOR, "div.xu06os2 x1ok221b")
 
 for post in posts:
     try:
         # Lấy thông tin
-        author = post.find_element(By.CSS_SELECTOR, 'span.x1lliihq').text
+        author = post.find_element(By.CSS_SELECTOR, 'span.xt0psk2').text
         content = post.find_element(By.CSS_SELECTOR, 'div.x1iorvi4').text
-        time = post.find_element(By.CSS_SELECTOR, 'span.x4k7w5x').get_attribute('aria-label')
-        reactions = post.find_element(By.CSS_SELECTOR, 'span.x1e558r4').text
 
         print(f"Tác giả: {author}")
         print(f"Nội dung: {content}")
-        print(f"Thời gian: {time}")
-        print(f"Cảm xúc: {reactions}\n")
 
     except Exception as e:
         print(f"Lỗi khi lấy dữ liệu: {e}")
+
