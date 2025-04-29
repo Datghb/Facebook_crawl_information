@@ -39,7 +39,7 @@ if not access_token:
 
 print('Processing group ' + group_id + ' with tag ' + tag)
 
-dirname = '/' + output_folder + '/' + group_id
+dirname = os.path.join(output_folder, group_id)
 if not os.path.exists(dirname):
     os.makedirs(dirname)
 
@@ -49,7 +49,7 @@ def dump_post(group_id, post):
     It uses a .metadata file to track posts and avoid processing the same post twice
     """
 
-    filename = '/' + output_folder + '/' + group_id + '/' + 'post_' + tag + '_' + post['id']
+    filename = os.path.join(output_folder, group_id, 'post_' + tag + '_' + post['id'])
 
     if os.path.isfile(filename + '.metadata'):
         print('Skip post ' + post['id'] + ' already crawled')
@@ -87,7 +87,7 @@ def dump_comment(post_id, comment):
     comment['_meta_post_id'] = post_id
     comment['message'] = comment['message'].replace('\n', ' ')
 
-    filename = '/' + output_folder + '/' + 'post_' + tag + '_' + post_id + '_comment_' + comment['id']
+    filename = os.path.join(output_folder, 'post_' + tag + '_' + post_id + '_comment_' + comment['id'])
     with open(filename + '.json', mode='w') as outfile:
         json.dump(comment, outfile, indent=4)
 
